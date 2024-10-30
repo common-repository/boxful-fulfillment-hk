@@ -1,0 +1,43 @@
+
+.order-status.status-ready-to-ship {
+    background: #FFD100;
+    color: #0c0c0c;
+    padding-left: 10px;
+}
+
+.order-status.status-ready-to-ship:before {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url(../img/ready-to-ship.png);
+    content: " ";
+    width: 28px;
+    margin: 2px;
+}
+
+.order-status.status-shipment {
+    background: #00C7B1;
+    color: white;
+    padding-left: 10px;
+}
+
+.order-status.status-shipment:before {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url(../img/shipment.png);
+    content: " ";
+    width: 28px;
+    margin: 2px;
+}
+
+.order_logistics.column-order_logistics > a > mark {
+    background: #00C7B1;
+    color: white;
+    display: inline-block;
+    line-height: 2.6em;
+    border-radius: 4px;
+    margin: -.25em 0;
+    cursor: inherit !important;
+    white-space: nowrap;
+    max-width: 100%;
+    padding: 0 10px;
+}
